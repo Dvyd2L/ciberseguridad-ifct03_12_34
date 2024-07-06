@@ -17,10 +17,6 @@ export default defineConfig({
       },
       social: {
         github: 'https://github.com/Dvyd2L/',
-        discord: 'https://discord.com/channels/@me',
-        twitch: 'https://www.twitch.tv/dav2l',
-        'x.com': 'https://x.com/Davyd2L',
-        youtube: 'https://www.youtube.com/channel/UCrzCXQQSENL3VD70XFX8P8g',
         linkedin: 'https://www.linkedin.com/in/david-llopis-laguna-38902826a',
       },
       sidebar: [
@@ -41,9 +37,15 @@ export default defineConfig({
           autogenerate: { directory: 'reference' },
         },
       ],
-      
+      components: {
+        Header: './src/components/Header.astro',
+      },
+      customCss: ['./src/assets/styles/index.css'],
       expressiveCode: {
         themes: ['github-dark', 'github-light'],
+      },
+      tableOfContents: {
+        maxHeadingLevel: 6,
       },
       pagination: true,
       lastUpdated: true,

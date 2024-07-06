@@ -1,0 +1,24 @@
+@import url("./light.css");
+@import url("./dark.css");
+
+:root,
+::backdrop {
+  --sl-color-white: hsl(0, 0%, 100%);
+  --sl-color-gray-1: hsl(224, 19%, 97%);
+  --sl-color-gray-2: hsl(224, 20%, 94%);
+  --sl-color-gray-3: hsl(224, 6%, 77%);
+  --sl-color-gray-4: hsl(224, 6%, 56%);
+  --sl-color-gray-5: hsl(224, 7%, 36%);
+  --sl-color-gray-6: hsl(224, 10%, 23%);
+  --sl-color-gray-7: hsl(224, 14%, 16%);
+  --sl-color-black: hsl(0, 0%, 7%);
+
+  --sl-shadow-sm: 0px 1px 1px hsla(0, 0%, 0%, 0.06),
+    0px 2px 1px hsla(0, 0%, 0%, 0.06);
+  --sl-shadow-md: 0px 8px 4px hsla(0, 0%, 0%, 0.03),
+    0px 5px 2px hsla(0, 0%, 0%, 0.03), 0px 3px 2px hsla(0, 0%, 0%, 0.06),
+    0px 1px 1px hsla(0, 0%, 0%, 0.06);
+  --sl-shadow-lg: 0px 25px 7px rgba(0, 0, 0, 0.01),
+    0px 16px 6px hsla(0, 0%, 0%, 0.03), 0px 9px 5px hsla(223, 13%, 10%, 0.08),
+    0px 4px 4px hsla(0, 0%, 0%, 0.16), 0px 4px 2px hsla(0, 0%, 0%, 0.04);
+}
