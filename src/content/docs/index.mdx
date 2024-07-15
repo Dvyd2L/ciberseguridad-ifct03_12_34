@@ -18,6 +18,10 @@ hero:
 
 ¡Hola a todos! Soy David, y este espacio está dedicado a compartir mis apuntes y descubrimientos del fascinante mundo de la **ciberseguridad**. Aquí encontrarás resúmenes, análisis, y tutoriales basados en lo que he aprendido en mi curso de ciberseguridad.
 
+import SmokeBackground from '../../components/SmokeBackground.astro';
+
+<SmokeBackground client:load />
+
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
@@ -72,10 +76,9 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
     ### [📅 Actualizaciones y Novedades](#-actualizaciones-y-novedades)
     Estoy constantemente actualizando este sitio con nuevos apuntes y descubrimientos. ¡No te pierdas ninguna actualización!
 
-:::note
-    - **Julio 2024**: Añadido nuevo contenido sobre **Ingeniería Social**.
-    - **Agosto 2024**: Publicación de un tutorial sobre **Seguridad en IoT**.
+:::note - **Julio 2024**: Añadido nuevo contenido sobre **Ingeniería Social**. - **Agosto 2024**: Publicación de un tutorial sobre **Seguridad en IoT**.
 :::
+
   </Card>
 
   <Card>
@@ -95,3 +98,4 @@ Gracias por visitar mi página de apuntes de ciberseguridad. ¡Espero que encuen
 ---
 
 > _"La seguridad es un proceso, no un producto."_ - Bruce Schneier
+
